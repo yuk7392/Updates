@@ -72,9 +72,11 @@
   <ItemGroup>
     <Content Include="..\MacroMgr\exe.txt">
       <Link>Files\exe.txt</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\MacroMgr\output.txt">
       <Link>Files\output.txt</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
